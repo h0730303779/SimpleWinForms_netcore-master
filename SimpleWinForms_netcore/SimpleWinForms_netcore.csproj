@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworks>netcoreapp3.1;net472;</TargetFrameworks>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>SimpleWinForms_netcore</AssemblyName>
+    <RootNamespace>ZSimpleWinForms_netcore</RootNamespace>
+  </PropertyGroup>
+
+   <ItemGroup>
+     <Reference Include="DevExpress.Data.Desktop.v20.1">
+       <HintPath>D:\开发软件\DevExpress 20.1\Components\Bin\Framework\DevExpress.Data.Desktop.v20.1.dll</HintPath>
+     </Reference>
+     <Reference Include="DevExpress.Data.v20.1">
+       <HintPath>D:\开发软件\DevExpress 20.1\Components\Bin\Framework\DevExpress.Data.v20.1.dll</HintPath>
+     </Reference>
+     <Reference Include="DevExpress.Printing.v20.1.Core">
+       <HintPath>D:\开发软件\DevExpress 20.1\Components\Bin\Framework\DevExpress.Printing.v20.1.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="DevExpress.Tutorials.v20.1">
+       <HintPath>D:\开发软件\DevExpress 20.1\Components\Bin\Framework\DevExpress.Tutorials.v20.1.dll</HintPath>
+     </Reference>
+     <Reference Include="DevExpress.Utils.v20.1">
+       <HintPath>D:\开发软件\DevExpress 20.1\Components\Bin\Framework\DevExpress.Utils.v20.1.dll</HintPath>
+     </Reference>
+     <Reference Include="DevExpress.XtraBars.v20.1">
+       <HintPath>D:\开发软件\DevExpress 20.1\Components\Bin\Framework\DevExpress.XtraBars.v20.1.dll</HintPath>
+     </Reference>
+     <Reference Include="DevExpress.XtraEditors.v20.1">
+       <HintPath>D:\开发软件\DevExpress 20.1\Components\Bin\Framework\DevExpress.XtraEditors.v20.1.dll</HintPath>
+     </Reference>
+     <Reference Include="DevExpress.XtraLayout.v20.1">
+       <HintPath>D:\开发软件\DevExpress 20.1\Components\Bin\Framework\DevExpress.XtraLayout.v20.1.dll</HintPath>
+     </Reference>
+     <Reference Include="DevExpress.XtraPrinting.v20.1">
+       <HintPath>D:\开发软件\DevExpress 20.1\Components\Bin\Framework\DevExpress.XtraPrinting.v20.1.dll</HintPath>
+     </Reference>
+   </ItemGroup>
+
+   <ItemGroup>
+     <None Update="appsettings.json">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </None>
+     <None Update="Properties\licenses.licx">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </None>
+   </ItemGroup>
+</Project>
